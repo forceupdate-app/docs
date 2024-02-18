@@ -1,4 +1,4 @@
-# Force Update Documentation
+# Forceupdate
 
 Welcome to the official documentation for `forceupdate.app`.
 
@@ -13,15 +13,19 @@ Welcome to the official documentation for `forceupdate.app`.
 ## Features
 
 ### Integrate with Your App
+
 Our hassle-free integration process with our SDK or API lets you incorporate Force Update seamlessly. Get ahead of the competition with timely app updates.
 
 ### Version Control
+
 Create a new version through our intuitive dashboard and set it as a force upgrade. Ensure your users are always on the latest version, be it for security patches or new features.
 
 ### User Alerts
+
 When an app version matches a flagged version in the dashboard, users are prompted to update. Provide them with the latest features and improvements.
 
 ### Available SDKs
+
 Our developer-friendly SDKs cater to major platforms ensuring you're up and running in no time:
 
 - Flutter
@@ -32,6 +36,7 @@ Our developer-friendly SDKs cater to major platforms ensuring you're up and runn
 - REST API
 
 ### Benefits
+
 - **Cross-Platform**: Works flawlessly on both Android and iOS.
 - **Localized Update Messages**: Communicate update benefits in the user's native language.
 - **Supports Multiple Marketplaces**: From Google Playstore and App Store to Huawei AppGallery and Amazon Appstore. Even support for custom marketplaces.
@@ -53,6 +58,7 @@ Our developer-friendly SDKs cater to major platforms ensuring you're up and runn
 - **Platform/OS Incompatibility**: Tackle issues with older OS versions that might not support recent app versions.
 
 ## Under Construction 🚧
+
 Please note: This documentation is currently under construction. We're working diligently to provide you with comprehensive guides and tutorials. Stay tuned!
 
 ## Learn More

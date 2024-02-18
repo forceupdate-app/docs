@@ -4,15 +4,13 @@
 
 ### Sign up
 
-To get started, you need to sign up for an account on [ForceUpdate](https://forceupdate.app/sign-up). You can create a new account by providing your email and password or by using your Google account.
+To get started, you need to sign up for an account on [Forceupdate Signup](https://forceupdate.app/auth/firebase/register). You can create a new account by providing your email and password or by using your Google account.
+
+![Signup](assets/signup.png)
 
 ### Create your project
 
-After signing up, you'll be prompted to create a new project. You can create a new project by providing a name and a description, and choose a platform for your project. You can create a project for Android or IOS.
-
-A project in forceupdate is basically your app. You can create multiple projects for different apps, each with its own settings and configurations.
-
-> On free plan, you can create only one project. You can upgrade to a paid plan to create more projects.
+See the [Project Creation](project#creation) guide to create a new project.
 
 ## Get your API key
 
