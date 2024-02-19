@@ -57,7 +57,7 @@ If the API key is not related to any project or invalid, the response will be:
 
 ### Swagger
 
-For the most recent API documentation, refer to our Swagger: [https://api.forceupdate.app/docs](https://api.forceupdate.app/docs)
+For the most recent API documentation, refer to our Swagger: [https://api.forceupdate.app](https://api.forceupdate.app)
 
 ### Postman
 
