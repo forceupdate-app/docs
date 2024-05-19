@@ -8,6 +8,18 @@ This section is dedicated to the most generic way to integrate ForceUpdate into 
 
 Before you can begin using the API, you need to obtain your API key from the dashboard. If you do not have an API key, follow [this guide](#api-key).
 
+## Collections
+
+### Swagger
+
+For the most recent API documentation, refer to our Swagger: [https://api.forceupdate.app](https://api.forceupdate.app)
+
+### Postman
+
+<!-- TODO: Add postman -->
+
+Coming soon
+
 ## Endpoint
 
 | Method | URL                                       | Description                          |
@@ -25,7 +37,11 @@ Before you can begin using the API, you need to obtain your API key from the das
 
 ## Response
 
-### 200: Success
+The response will be a JSON object with the following fields:
+
+<!-- tabs:start -->
+
+#### **200: Success**
 
 When the request is successful, the response will be:
 
@@ -41,7 +57,7 @@ When the request is successful, the response will be:
 }
 ```
 
-### 400: Bad Request
+#### **400: Bad Request**
 
 If the API key is not related to any project or invalid, the response will be:
 
@@ -53,21 +69,15 @@ If the API key is not related to any project or invalid, the response will be:
 }
 ```
 
-## Collections
-
-### Swagger
-
-For the most recent API documentation, refer to our Swagger: [https://api.forceupdate.app](https://api.forceupdate.app)
-
-### Postman
-
-<!-- TODO: Add postman -->
-
-Coming soon
+<!-- tabs:end -->
 
 ## Examples
 
-### Example: CURL
+The API is simple to use and can be integrated into any app. Below are examples of how to use the API in different languages and platforms.
+
+<!-- tabs:start -->
+
+#### **CURL**
 
 ```js
 curl -X 'POST' \
@@ -82,7 +92,7 @@ curl -X 'POST' \
 }'
 ```
 
-### Example: javascript fetch
+#### **fetch**
 
 ```js
 const myHeaders = new Headers();
@@ -112,7 +122,7 @@ fetch("https://api.forceupdate.app/check-version", requestOptions)
   .catch((error) => console.error(error));
 ```
 
-### Example: javascript axios
+#### **axios**
 
 ```js
 import axios from "axios";
@@ -136,7 +146,7 @@ axios
   .catch((error) => console.error(error));
 ```
 
-### Example: Dart - DIO
+#### **Dart - DIO**
 
 ```dart
 var headers = {
@@ -167,7 +177,7 @@ else {
 }
 ```
 
-### Example: Dart - HTTP
+#### **Dart - HTTP**
 
 ```dart
 var headers = {
@@ -193,14 +203,16 @@ else {
 }
 ```
 
-### Example: Android
+#### **Android**
 
 Check our [Android example](android-integration) for a complete example.
 
-### Example: Swift
+#### **Swift**
 
 Check our [Swift example](ios-integration) for a complete example.
 
-### Example React-native (with or without Expo)
+#### **React-native**
 
 Check our [React Native example](react-native-integration) for a complete example.
+
+<!-- tabs:end -->

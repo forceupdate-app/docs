@@ -42,6 +42,11 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
     />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/A5yncX/docsify-theme-darcula@v1.0/darcula.css"
+    /> -->
+
     <link
       rel="stylesheet"
       href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"
@@ -91,14 +96,85 @@
         }
       })();
     </script>
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/docsify-top-banner-plugin@latest/dist/style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/style.min.css"
+    />
   </head>
 
   <body>
     <div id="app">Loading ...</div>
+
     <script src="//cdn.jsdelivr.net/npm/docsify-plugin-carbon@1"></script>
+    <script src="//cdn.jsdelivr.net/npm/@sujaykumarh/docsify-plugin-footer@1.x/dist/plugin.min.js"></script>
     <script>
       // Docsify configuration
       window.$docsify = {
+        // customPageTitle: {
+        //   prefix: "prefix", // [optional] title prefix. default: false eg: prefix: "Application"
+        //   suffix: "suffix", // [optional] title suffix. default: false eg: suffix: "v1.0.0"
+        //   separator: "|", // [optional] separator for title eg: title->   prefix | title | suffix
+        //   debug: false, // [optional] should debug
+        // },
+        // topBanner: {
+        // defaultTag: "span",
+        // backgroundColor: "#deebff",
+        // content: "oi",
+        // textColor: "#091E42",
+        // linkColor: "#091E42",
+        // textAlign: "center",
+        // position: "fixed",
+        // zIndex: "99",
+        // },
+        // timeUpdater: {
+        //   text: ">last update time: {docsify-updated}",
+        //   formatUpdated: "{YYYY}/{MM}/{DD}",
+        //   whereToPlace: "bottom", // "top" or "bottom", default to "bottom"
+        // },
+        themeColor: "#6266F1",
+        darkMode: {
+          dark: {
+            background: "#282a36",
+            toggleBtnBg: "#44475a",
+            textColor: "#f8f8f2",
+          },
+          light: {
+            background: "white",
+            toggleBtnBg: "var(--theme-color)",
+            textColor: "black",
+          },
+        },
+        autoFooter: {
+          // the name you wish to display as the copyright holder
+          name: "Foreceupdate",
+          // the URL (personal or company) which clicking the `name` goes to
+          url: false,
+          // the start year of copyright
+          copyYear: false,
+          // show the privacy policy link
+          policy: false,
+          // show the terms of service link
+          terms: false,
+          // show the cookies policy link
+          cookies: false,
+          // use your own css styles or the built in ones
+          customStyle: false,
+        },
+        "flexible-alerts": {
+          style: "flat",
+        },
+        tabs: {
+          persist: true, // default
+          sync: true, // default
+          theme: "material", // default
+          tabComments: true, // default
+          tabHeadings: true, // default
+        },
+        repo: "https://github.com/forceupdate-app",
         alias: {
           ".*?/awesome":
             "https://raw.githubusercontent.com/docsifyjs/awesome-docsify/master/README.md",
@@ -113,6 +189,7 @@
             "https://raw.githubusercontent.com/docsifyjs/docs-ru/master/$1",
           "/zh-cn/(.*)":
             "https://cdn.jsdelivr.net/gh/docsifyjs/docs-zh@master/$1",
+          "/": "https://raw.githubusercontent.com/forceupdate-app/.github/main/profile/README.md",
         },
         auto2top: true,
         coverpage: true,
@@ -251,6 +328,17 @@
     <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-nginx.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/vue@2/dist/vue.min.js"></script>
+    <script src="//unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
+    <script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
+    <script src="//unpkg.com/docsify-copy-code"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+    <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-top-banner-plugin@latest/dist/index.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/index.min.js"></script>
+    <script src="https://unpkg.com/@markbattistella/docsify-sidebarfooter@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-progress@latest/dist/progress.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/@sujaykumarh/docsify-plugin-title@2.x/dist/plugin.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/docsify-updated/src/time-updater.min.js"></script> -->
     <!-- <script src="//cdn.jsdelivr.net/npm/vue@3/dist/vue.global.prod.js"></script> -->
   </body>
 </html>

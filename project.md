@@ -1,8 +1,20 @@
 # Project
 
+A project in Forceupdate is a way to group your app versions and manage them. Think it as your app in the Forceupdate platform.
+
+In the project, you can:
+
+- Manage your app versions
+- Get your API key
+- Configure your translations
+- Give access to your team
+- See the logs of your project
+- See the analytics of your app (cooming soon)
+
 ## Creation
 
-> On free plan, you can create only one project. You can upgrade to a paid plan to create more projects.
+> [!NOTE]
+> On free plan, you can create only one project. You can upgrade to a paid plan to create more projects. Check our [billing](billing) page for more
 
 To create a new project, you need to click on the "Create Project" button on the top right corner of the dashboard.
 
